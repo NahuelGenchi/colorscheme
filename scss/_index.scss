@@ -1,9 +1,8 @@
 .mainIndex {
     min-height: 80vh;
-    margin: 10vh 0 0 0;
     .article {
         .article__header {
-            margin: 10vh auto;
+            margin: 5vh auto;
             .h1 {
                 color: #FF5200;
                 font-weight: 700;
@@ -31,6 +30,50 @@
                     color: #FF5200;
                     font-weight: 700;
                     margin: 10vh 0;
+                }
+                .p {
+                    margin: 5vh 0 0 0;
+                }
+                .blockquote {
+                    margin: 5vh 0 5vh 0;
+                    color: #FF5200;
+                    font-weight: 700;
+                    span {
+                        color: rgb(41, 41, 41);
+                    }
+                }
+                .ol {
+                    margin: 5vh 0 5vh 0;
+                    li {
+                        margin: 3vh 0 3vh 0;
+                        .liRed {
+                            color: red;
+                        }
+                        .liOrange {
+                            color: orange;
+                        }
+                        .liYellow {
+                            color: #FFE600;
+                        }
+                        .liGreen {
+                            color: green;
+                        }
+                        .liBlue {
+                            color: blue;
+                        }
+                        .liPurple {
+                            color: purple;
+                        }
+                        .liPink {
+                            color: pink;
+                        }
+                        .liBrown {
+                            color: brown;
+                        }
+                        .liGray {
+                            color: gray;
+                        }
+                    }
                 }
             }
         }

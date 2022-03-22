@@ -1,4 +1,4 @@
-.mpReset, .header nav ul {
+.mpReset, .header nav ul, .footer p {
   margin: 0;
   padding: 0; }
 
@@ -42,10 +42,9 @@ body {
           color: black; }
 
 .mainIndex {
-  min-height: 80vh;
-  margin: 10vh 0 0 0; }
+  min-height: 80vh; }
   .mainIndex .article .article__header {
-    margin: 10vh auto; }
+    margin: 5vh auto; }
     .mainIndex .article .article__header .h1 {
       color: #FF5200;
       font-weight: 700;
@@ -69,7 +68,42 @@ body {
         color: #FF5200;
         font-weight: 700;
         margin: 10vh 0; }
+      .mainIndex .article .article__body .article__body--content .p {
+        margin: 5vh 0 0 0; }
+      .mainIndex .article .article__body .article__body--content .blockquote {
+        margin: 5vh 0 5vh 0;
+        color: #FF5200;
+        font-weight: 700; }
+        .mainIndex .article .article__body .article__body--content .blockquote span {
+          color: #292929; }
+      .mainIndex .article .article__body .article__body--content .ol {
+        margin: 5vh 0 5vh 0; }
+        .mainIndex .article .article__body .article__body--content .ol li {
+          margin: 3vh 0 3vh 0; }
+          .mainIndex .article .article__body .article__body--content .ol li .liRed {
+            color: red; }
+          .mainIndex .article .article__body .article__body--content .ol li .liOrange {
+            color: orange; }
+          .mainIndex .article .article__body .article__body--content .ol li .liYellow {
+            color: #FFE600; }
+          .mainIndex .article .article__body .article__body--content .ol li .liGreen {
+            color: green; }
+          .mainIndex .article .article__body .article__body--content .ol li .liBlue {
+            color: blue; }
+          .mainIndex .article .article__body .article__body--content .ol li .liPurple {
+            color: purple; }
+          .mainIndex .article .article__body .article__body--content .ol li .liPink {
+            color: pink; }
+          .mainIndex .article .article__body .article__body--content .ol li .liBrown {
+            color: brown; }
+          .mainIndex .article .article__body .article__body--content .ol li .liGray {
+            color: gray; }
 
 .footer {
   min-height: 10vh;
-  margin: 0 auto; }
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .footer p a {
+    text-decoration: none; }

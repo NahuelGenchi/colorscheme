@@ -1,4 +1,13 @@
 .footer {
     min-height: 10vh;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p {
+        @extend .mpReset;
+        a {
+            text-decoration: none;
+        }
+    }
 }
