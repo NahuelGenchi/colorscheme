@@ -8,6 +8,12 @@
         @extend .mpReset;
         a {
             text-decoration: none;
+            color: rgb(14, 73, 109);
+            font-weight: bold;
+            transition: color 1.2s;
+        }
+        a:hover {
+            color: rgb(55, 164, 228);
         }
     }
 }
