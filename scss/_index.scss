@@ -1,0 +1,38 @@
+.mainIndex {
+    min-height: 80vh;
+    margin: 10vh 0 0 0;
+    .article {
+        .article__header {
+            margin: 10vh auto;
+            .h1 {
+                color: #FF5200;
+                font-weight: 700;
+                margin: 10vh 0 0 0;
+                padding: 0 5vw 0 5vw;
+            }
+            span {
+                color: #FF5200;
+                font-weight: 700;
+                font-size: xx-large;
+                padding: 0 5vw 0 5vw;
+            }
+            p {
+                margin: 2vh 0 0 0;
+                padding: 0 5vw 0 5vw;
+            }
+        }
+        .article__body {
+            background-color: white;
+            .article__body--content {
+                margin: 0 auto;
+                padding: 10vh 5vw 10vh 5vw;
+                font-size: 19px;
+                .h2 {
+                    color: #FF5200;
+                    font-weight: 700;
+                    margin: 10vh 0;
+                }
+            }
+        }
+    }
+}

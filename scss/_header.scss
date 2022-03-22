@@ -1,0 +1,36 @@
+.header {
+    min-height: 10vh;
+    margin: 0 auto;
+    nav {
+        min-height: 10vh;
+        position: fixed;
+        top: 0;
+        border-bottom: 1px solid rgba(194, 194, 194, 0.50);
+        background-color: #F7F7F6;
+        ul {
+            @extend .mpReset;
+            min-height: 10vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            list-style-type: none;
+            li {
+                width: 5vw;
+                height: 5vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 20%;
+                a {
+                    text-decoration: none;
+                    color: rgba(105, 105, 105, 0.801);
+                    font-weight: bold;
+                    transition: color 1.2s;
+                }
+                a:hover {
+                    color: black;
+                }
+            }
+        }
+    }
+}
